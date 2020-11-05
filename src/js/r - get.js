@@ -1,13 +1,17 @@
 const BASE_URL = 'http://localhost:4040';
 
-function fetchBooks() {
-  return fetch(`${BASE_URL}/books`).then(res => res.json());
-}
+  function fetchBooks () {
+    return fetch(`/books`)
+  .then(res => res.json())
+  .then(console.log);
+  }
 
-function fetchBookById(bookId) {
-  return fetch(`${BASE_URL}/books/${bookId}`).then(res => res.json());
-}
+  function fetchBookId (bookId) {
+    return fetch(`${BASE_URL}/books/${bookId}`)
+  .then(res => res.json())
+  .then(console.log);
+  }
 
 fetchBooks();
-fetchBookById(2);
-fetchBookById(4);
+fetchBookId(2);
+fetchBookId(4);

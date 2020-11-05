@@ -1,14 +1,14 @@
 const BASE_URL = 'http://localhost:4040';
 
-function removeBook(bookId) {
+function removeBook (bookId) {
   const url = `${BASE_URL}/books/${bookId}`;
   const options = {
-    method: 'DELETE',
+    method: 'DELETE'
   };
 
   return fetch(url, options).then(res => res.json());
 }
 
-// removeBook(15);
-// removeBook(14);
+removeBook(18);
+removeBook(21);
 

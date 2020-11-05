@@ -74,7 +74,7 @@
       "id": 8
     },
     {
-      "title": "Большая тестовая книга по CSS",
+      "title": "Очень большая тестовая книг по CSS",
       "author": "Я",
       "genres": [
         "CSS"
@@ -92,31 +92,13 @@
       "id": 12
     },
     {
-      "title": "Большая новая тестовая книга по HTML",
+      "title": "Самая большая новая тестовая книга по HTML",
       "author": "Я",
       "genres": [
         "HTML"
       ],
       "rating": 7,
       "id": 13
-    },
-    {
-      "title": "Тестовая книга по HTML",
-      "author": "Манго",
-      "genres": [
-        "HTML"
-      ],
-      "rating": 4,
-      "id": 17
-    },
-    {
-      "title": "Тестовая книга по CSS",
-      "author": "Я",
-      "genres": [
-        "CSS"
-      ],
-      "rating": 1,
-      "id": 18
     },
     {
       "title": "Большая новая книга по NODEJS",
@@ -137,13 +119,40 @@
       "id": 20
     },
     {
-      "title": "Тестовая книга по CSS",
-      "author": "Я",
+      "title": "Test book-2",
+      "author": "Me",
       "genres": [
-        "CSS"
+        "test-2"
       ],
       "rating": 9,
       "id": 21
+    },
+    {
+      "title": "Test book-3",
+      "author": "Me",
+      "genres": [
+        "test-3"
+      ],
+      "rating": 8.5,
+      "id": 22
+    },
+    {
+      "title": "Test book-2",
+      "author": "Me",
+      "genres": [
+        "test-2"
+      ],
+      "rating": 9,
+      "id": 23
+    },
+    {
+      "title": "Test book-3",
+      "author": "Me",
+      "genres": [
+        "test-3"
+      ],
+      "rating": 8.5,
+      "id": 24
     }
   ]
 }
